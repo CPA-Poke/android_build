@@ -21,9 +21,6 @@
 # core_tiny.mk in addition to core_minimal.mk.
 
 PRODUCT_PACKAGES += \
-    BasicDreams \
-    Browser \
-    Calendar \
     CalendarProvider \
     CaptivePortalLogin \
     CertInstaller \
@@ -31,9 +28,7 @@ PRODUCT_PACKAGES += \
     DeskClock \
     DocumentsUI \
     DownloadProviderUi \
-    Email \
     ExactCalculator \
-    Exchange2 \
     ExternalStorageProvider \
     FusedLocation \
     InputDevices \
@@ -44,7 +39,6 @@ PRODUCT_PACKAGES += \
     ManagedProvisioning \
     PacProcessor \
     libpac \
-    PrintSpooler \
     ProxyHandler \
     Settings \
     SharedStorageBackup \
