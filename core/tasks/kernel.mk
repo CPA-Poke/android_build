@@ -31,7 +31,7 @@ KERNEL_CONFIG := $(KERNEL_OUT)/.config
 
 # M uses 4.9 gcc by default, and it's not available in their repos
 # So, use 4.8 gcc for the time being.
-KERNEL_GCC_VERSION := 4.8
+KERNEL_GCC_VERSION := 5.2
 
 # You can set KERNEL_TOOLCHAIN_PREFIX to get gcc from somewhere else
 ifeq ($(strip $(KERNEL_TOOLCHAIN_PREFIX)),)
