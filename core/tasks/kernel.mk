@@ -35,7 +35,7 @@ KERNEL_GCC_VERSION := 5.2
 
 # You can set KERNEL_TOOLCHAIN_PREFIX to get gcc from somewhere else
 ifeq ($(strip $(KERNEL_TOOLCHAIN_PREFIX)),)
-KERNEL_TOOLCHAIN_ROOT:=$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_PREBUILT_TAG)/arm/arm-eabi-$(KERNEL_GCC_VERSION)
+KERNEL_TOOLCHAIN_ROOT:= /home/brock/uber/out/arm-eabi-5.3-cortex-a15
 KERNEL_TOOLCHAIN_PREFIX:=$(KERNEL_TOOLCHAIN_ROOT)/bin/arm-eabi-
 endif
 
